@@ -1,0 +1,8 @@
+{% extends './layout.html' %}
+
+{% block content %}
+    <p>Kudos! You made to this page.This page is restricted to logged in users only.</p>
+    <p>Users who are not logged in are redirected to the login page.</p>
+    <p>Try logging out and visiting this page to see what happens.</p>
+    <p><a href="/accounts/logout/">Logout?</a></p>
+{% endblock %}
